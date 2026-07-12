@@ -15,7 +15,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1783860525,,"wq!"
+|2,0,1783860985,,"wq!"
 :q!
 |2,0,1783860509,,"q!"
 
@@ -42,34 +42,44 @@ $
 |3,0,36,0,1,0,1769674395,"R"
 
 # File marks:
-'0  2  33  ~/.git/Ammy_1
-|4,48,2,33,1783860525,"~/.git/Ammy_1"
-'1  1  0  ~/.git/Ammy_1
-|4,49,1,0,1783860509,"~/.git/Ammy_1"
+'0  1  20  ~/Ammy
+|4,48,1,20,1783860985,"~/Ammy"
+'1  2  33  ~/.git/Ammy_1
+|4,49,2,33,1783860525,"~/.git/Ammy_1"
 '2  1  0  ~/.git/Ammy_1
 |4,50,1,0,1783860509,"~/.git/Ammy_1"
-'3  1  14  ~/.git/Ammy_1
-|4,51,1,14,1783843492,"~/.git/Ammy_1"
+'3  1  0  ~/.git/Ammy_1
+|4,51,1,0,1783860509,"~/.git/Ammy_1"
 '4  1  14  ~/.git/Ammy_1
 |4,52,1,14,1783843492,"~/.git/Ammy_1"
-'5  1  11  ~/.git/test
-|4,53,1,11,1783840318,"~/.git/test"
-'6  1  27  ~/Devops/garvit.html
-|4,54,1,27,1769702142,"~/Devops/garvit.html"
-'7  1  0  ~/Devops/.git/COMMIT_EDITMSG
-|4,55,1,0,1769674406,"~/Devops/.git/COMMIT_EDITMSG"
-'8  4  14  ~/Devops/index.html
-|4,56,4,14,1769673934,"~/Devops/index.html"
-'9  1  0  ~/Devops/.gitignore
-|4,57,1,0,1769673869,"~/Devops/.gitignore"
+'5  1  14  ~/.git/Ammy_1
+|4,53,1,14,1783843492,"~/.git/Ammy_1"
+'6  1  11  ~/.git/test
+|4,54,1,11,1783840318,"~/.git/test"
+'7  1  27  ~/Devops/garvit.html
+|4,55,1,27,1769702142,"~/Devops/garvit.html"
+'8  1  0  ~/Devops/.git/COMMIT_EDITMSG
+|4,56,1,0,1769674406,"~/Devops/.git/COMMIT_EDITMSG"
+'9  4  14  ~/Devops/index.html
+|4,57,4,14,1769673934,"~/Devops/index.html"
 
 # Jumplist (newest first):
+-'  1  20  ~/Ammy
+|4,39,1,20,1783860985,"~/Ammy"
+-'  2  33  ~/.git/Ammy_1
+|4,39,2,33,1783860525,"~/.git/Ammy_1"
 -'  2  33  ~/.git/Ammy_1
 |4,39,2,33,1783860525,"~/.git/Ammy_1"
 -'  1  0  ~/.git/Ammy_1
 |4,39,1,0,1783860513,"~/.git/Ammy_1"
 -'  1  0  ~/.git/Ammy_1
+|4,39,1,0,1783860513,"~/.git/Ammy_1"
+-'  1  0  ~/.git/Ammy_1
 |4,39,1,0,1783860509,"~/.git/Ammy_1"
+-'  1  0  ~/.git/Ammy_1
+|4,39,1,0,1783860509,"~/.git/Ammy_1"
+-'  1  14  ~/.git/Ammy_1
+|4,39,1,14,1783843492,"~/.git/Ammy_1"
 -'  1  14  ~/.git/Ammy_1
 |4,39,1,14,1783843492,"~/.git/Ammy_1"
 -'  1  11  ~/.git/test
@@ -88,6 +98,54 @@ $
 |4,39,1,11,1783840318,"~/.git/test"
 -'  1  11  ~/.git/test
 |4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  27  ~/Devops/garvit.html
+|4,39,1,27,1769702142,"~/Devops/garvit.html"
+-'  1  27  ~/Devops/garvit.html
+|4,39,1,27,1769702142,"~/Devops/garvit.html"
+-'  1  27  ~/Devops/garvit.html
+|4,39,1,27,1769702142,"~/Devops/garvit.html"
+-'  1  27  ~/Devops/garvit.html
+|4,39,1,27,1769702142,"~/Devops/garvit.html"
+-'  1  27  ~/Devops/garvit.html
+|4,39,1,27,1769702142,"~/Devops/garvit.html"
+-'  1  27  ~/Devops/garvit.html
+|4,39,1,27,1769702142,"~/Devops/garvit.html"
+-'  1  27  ~/Devops/garvit.html
+|4,39,1,27,1769702142,"~/Devops/garvit.html"
+-'  1  27  ~/Devops/garvit.html
+|4,39,1,27,1769702142,"~/Devops/garvit.html"
+-'  1  27  ~/Devops/garvit.html
+|4,39,1,27,1769702142,"~/Devops/garvit.html"
+-'  1  27  ~/Devops/garvit.html
+|4,39,1,27,1769702142,"~/Devops/garvit.html"
+-'  1  27  ~/Devops/garvit.html
+|4,39,1,27,1769702142,"~/Devops/garvit.html"
+-'  1  27  ~/Devops/garvit.html
+|4,39,1,27,1769702142,"~/Devops/garvit.html"
+-'  1  27  ~/Devops/garvit.html
+|4,39,1,27,1769702142,"~/Devops/garvit.html"
+-'  1  27  ~/Devops/garvit.html
+|4,39,1,27,1769702142,"~/Devops/garvit.html"
+-'  1  27  ~/Devops/garvit.html
+|4,39,1,27,1769702142,"~/Devops/garvit.html"
+-'  1  27  ~/Devops/garvit.html
+|4,39,1,27,1769702142,"~/Devops/garvit.html"
 -'  1  27  ~/Devops/garvit.html
 |4,39,1,27,1769702142,"~/Devops/garvit.html"
 -'  1  27  ~/Devops/garvit.html
@@ -184,88 +242,37 @@ $
 |4,39,1,0,1769674406,"~/Devops/.git/COMMIT_EDITMSG"
 -'  1  0  ~/Devops/.git/COMMIT_EDITMSG
 |4,39,1,0,1769674406,"~/Devops/.git/COMMIT_EDITMSG"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
--'  4  14  ~/Devops/index.html
-|4,39,4,14,1769673934,"~/Devops/index.html"
+-'  1  0  ~/Devops/.git/COMMIT_EDITMSG
+|4,39,1,0,1769674406,"~/Devops/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Devops/.git/COMMIT_EDITMSG
+|4,39,1,0,1769674406,"~/Devops/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Devops/.git/COMMIT_EDITMSG
+|4,39,1,0,1769674406,"~/Devops/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Devops/.git/COMMIT_EDITMSG
+|4,39,1,0,1769674406,"~/Devops/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Devops/.git/COMMIT_EDITMSG
+|4,39,1,0,1769674406,"~/Devops/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Devops/.git/COMMIT_EDITMSG
+|4,39,1,0,1769674406,"~/Devops/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Devops/.git/COMMIT_EDITMSG
+|4,39,1,0,1769674406,"~/Devops/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Devops/.git/COMMIT_EDITMSG
+|4,39,1,0,1769674406,"~/Devops/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Devops/.git/COMMIT_EDITMSG
+|4,39,1,0,1769674406,"~/Devops/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Devops/.git/COMMIT_EDITMSG
+|4,39,1,0,1769674406,"~/Devops/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Devops/.git/COMMIT_EDITMSG
+|4,39,1,0,1769674406,"~/Devops/.git/COMMIT_EDITMSG"
 
 # History of marks within files (newest to oldest):
+
+> ~/Ammy
+	*	1783860984	0
+	"	1	20
+	^	1	21
+	.	1	20
+	+	1	20
 
 > ~/.git/Ammy_1
 	*	1783860524	0
