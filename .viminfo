@@ -15,7 +15,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1784889473,,"wq!"
+|2,0,1784890128,,"wq!"
 :q!
 |2,0,1783860509,,"q!"
 
@@ -42,34 +42,50 @@ $
 |3,0,36,0,1,0,1769674395,"R"
 
 # File marks:
-'0  1  2  ~/ammy_2
-|4,48,1,2,1784889473,"~/ammy_2"
-'1  1  20  ~/Ammy
-|4,49,1,20,1783860985,"~/Ammy"
-'2  2  33  ~/.git/Ammy_1
-|4,50,2,33,1783860525,"~/.git/Ammy_1"
-'3  1  0  ~/.git/Ammy_1
-|4,51,1,0,1783860509,"~/.git/Ammy_1"
-'4  1  0  ~/.git/Ammy_1
-|4,52,1,0,1783860509,"~/.git/Ammy_1"
-'5  1  14  ~/.git/Ammy_1
-|4,53,1,14,1783843492,"~/.git/Ammy_1"
-'6  1  14  ~/.git/Ammy_1
-|4,54,1,14,1783843492,"~/.git/Ammy_1"
-'7  1  11  ~/.git/test
-|4,55,1,11,1783840318,"~/.git/test"
-'8  1  27  ~/Devops/garvit.html
-|4,56,1,27,1769702142,"~/Devops/garvit.html"
-'9  1  0  ~/Devops/.git/COMMIT_EDITMSG
-|4,57,1,0,1769674406,"~/Devops/.git/COMMIT_EDITMSG"
+'0  2  20  ~/ammy_2
+|4,48,2,20,1784890128,"~/ammy_2"
+'1  1  2  ~/ammy_2
+|4,49,1,2,1784889473,"~/ammy_2"
+'2  1  2  ~/ammy_2
+|4,50,1,2,1784889473,"~/ammy_2"
+'3  1  20  ~/Ammy
+|4,51,1,20,1783860985,"~/Ammy"
+'4  2  33  ~/.git/Ammy_1
+|4,52,2,33,1783860525,"~/.git/Ammy_1"
+'5  1  0  ~/.git/Ammy_1
+|4,53,1,0,1783860509,"~/.git/Ammy_1"
+'6  1  0  ~/.git/Ammy_1
+|4,54,1,0,1783860509,"~/.git/Ammy_1"
+'7  1  14  ~/.git/Ammy_1
+|4,55,1,14,1783843492,"~/.git/Ammy_1"
+'8  1  14  ~/.git/Ammy_1
+|4,56,1,14,1783843492,"~/.git/Ammy_1"
+'9  1  11  ~/.git/test
+|4,57,1,11,1783840318,"~/.git/test"
 
 # Jumplist (newest first):
+-'  2  20  ~/ammy_2
+|4,39,2,20,1784890128,"~/ammy_2"
+-'  1  2  ~/ammy_2
+|4,39,1,2,1784890117,"~/ammy_2"
 -'  1  2  ~/ammy_2
 |4,39,1,2,1784889473,"~/ammy_2"
 -'  1  20  ~/Ammy
 |4,39,1,20,1783860985,"~/Ammy"
 -'  1  20  ~/Ammy
 |4,39,1,20,1783860985,"~/Ammy"
+-'  1  20  ~/Ammy
+|4,39,1,20,1783860985,"~/Ammy"
+-'  1  20  ~/Ammy
+|4,39,1,20,1783860985,"~/Ammy"
+-'  2  33  ~/.git/Ammy_1
+|4,39,2,33,1783860525,"~/.git/Ammy_1"
+-'  2  33  ~/.git/Ammy_1
+|4,39,2,33,1783860525,"~/.git/Ammy_1"
+-'  2  33  ~/.git/Ammy_1
+|4,39,2,33,1783860525,"~/.git/Ammy_1"
+-'  2  33  ~/.git/Ammy_1
+|4,39,2,33,1783860525,"~/.git/Ammy_1"
 -'  2  33  ~/.git/Ammy_1
 |4,39,2,33,1783860525,"~/.git/Ammy_1"
 -'  2  33  ~/.git/Ammy_1
@@ -87,6 +103,18 @@ $
 -'  1  0  ~/.git/Ammy_1
 |4,39,1,0,1783860513,"~/.git/Ammy_1"
 -'  1  0  ~/.git/Ammy_1
+|4,39,1,0,1783860513,"~/.git/Ammy_1"
+-'  1  0  ~/.git/Ammy_1
+|4,39,1,0,1783860513,"~/.git/Ammy_1"
+-'  1  0  ~/.git/Ammy_1
+|4,39,1,0,1783860513,"~/.git/Ammy_1"
+-'  1  0  ~/.git/Ammy_1
+|4,39,1,0,1783860513,"~/.git/Ammy_1"
+-'  1  0  ~/.git/Ammy_1
+|4,39,1,0,1783860509,"~/.git/Ammy_1"
+-'  1  0  ~/.git/Ammy_1
+|4,39,1,0,1783860509,"~/.git/Ammy_1"
+-'  1  0  ~/.git/Ammy_1
 |4,39,1,0,1783860509,"~/.git/Ammy_1"
 -'  1  0  ~/.git/Ammy_1
 |4,39,1,0,1783860509,"~/.git/Ammy_1"
@@ -94,6 +122,18 @@ $
 |4,39,1,0,1783860509,"~/.git/Ammy_1"
 -'  1  0  ~/.git/Ammy_1
 |4,39,1,0,1783860509,"~/.git/Ammy_1"
+-'  1  0  ~/.git/Ammy_1
+|4,39,1,0,1783860509,"~/.git/Ammy_1"
+-'  1  0  ~/.git/Ammy_1
+|4,39,1,0,1783860509,"~/.git/Ammy_1"
+-'  1  14  ~/.git/Ammy_1
+|4,39,1,14,1783843492,"~/.git/Ammy_1"
+-'  1  14  ~/.git/Ammy_1
+|4,39,1,14,1783843492,"~/.git/Ammy_1"
+-'  1  14  ~/.git/Ammy_1
+|4,39,1,14,1783843492,"~/.git/Ammy_1"
+-'  1  14  ~/.git/Ammy_1
+|4,39,1,14,1783843492,"~/.git/Ammy_1"
 -'  1  14  ~/.git/Ammy_1
 |4,39,1,14,1783843492,"~/.git/Ammy_1"
 -'  1  14  ~/.git/Ammy_1
@@ -166,113 +206,74 @@ $
 |4,39,1,11,1783840318,"~/.git/test"
 -'  1  11  ~/.git/test
 |4,39,1,11,1783840318,"~/.git/test"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
--'  1  27  ~/Devops/garvit.html
-|4,39,1,27,1769702142,"~/Devops/garvit.html"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
+-'  1  11  ~/.git/test
+|4,39,1,11,1783840318,"~/.git/test"
 
 # History of marks within files (newest to oldest):
 
 > ~/ammy_2
-	*	1784889469	0
-	"	1	2
-	^	1	3
-	.	1	2
+	*	1784890126	0
+	"	2	20
+	^	2	21
+	.	2	20
 	+	1	2
+	+	2	20
 
 > ~/Ammy
 	*	1783860984	0
