@@ -1,4 +1,4 @@
 #!/bin/bash
 
-# Prompt the user for input
-echo "What is your name?"
+# I want to reboot the server
+init 0
