@@ -1,4 +1,4 @@
 #!/bin/bash
 
-# I want to reboot the server
-init 0
+# I want to shutdown the server
+systemctl poweroff
