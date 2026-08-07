@@ -1,4 +1,9 @@
 #!/bin/bash
-echo "What is your name?"
-read user_name
-echo "Hello, $user_name! Nice to meet you."
+filename="report.txt"
+
+if [ -f "$filename" ]; then
+    echo "The file $filename exists."
+else
+    echo "The file $filename cannot be found."
+fi
+
