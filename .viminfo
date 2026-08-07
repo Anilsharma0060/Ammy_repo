@@ -15,7 +15,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1786105303,,"wq!"
+|2,0,1786106400,,"wq!"
 :q!
 |2,0,1786105264,,"q!"
 
@@ -33,49 +33,66 @@ $
 |3,0,0,1,1,0,1783843481,""
 ""1	LINE	0
 	#!/bin/bash
-|3,1,1,1,1,0,1786105042,"#!/bin/bash"
+|3,1,1,1,1,0,1786106333,"#!/bin/bash"
 "2	LINE	0
-	echo "What is your name?"
-|3,0,2,1,1,0,1786105041,"echo \"What is your name?\""
+	filename="report.txt"
+|3,0,2,1,1,0,1786106333,"filename=\"report.txt\""
 "3	LINE	0
-	read user_name
-|3,0,3,1,1,0,1786105041,"read user_name"
+	
+|3,0,3,1,1,0,1786106333,""
 "4	LINE	0
-	echo "Hello, $user_name! Nice to meet you."
-|3,0,4,1,1,0,1786105041,"echo \"Hello, $user_name! Nice to meet you.\""
+	if [ -f "$filename" ]; then
+|3,0,4,1,1,0,1786106332,"if [ -f \"$filename\" ]; then"
 "5	LINE	0
-	me name is ammy
-|3,0,5,1,1,0,1783860502,"me name is ammy"
+	    echo "The file $filename exists."
+|3,0,5,1,1,0,1786106332,"    echo \"The file $filename exists.\""
 "6	LINE	0
-	*.css
-|3,0,6,1,1,0,1769673867,"*.css"
+	else
+|3,0,6,1,1,0,1786106332,"else"
+"7	LINE	0
+	    echo "The file $filename cannot be found."
+|3,0,7,1,1,0,1786106332,"    echo \"The file $filename cannot be found.\""
+"8	LINE	0
+	fi
+|3,0,8,1,1,0,1786106332,"fi"
+"9	LINE	0
+	
+|3,0,9,1,1,0,1786106332,""
 "-	CHAR	0
 	R
 |3,0,36,0,1,0,1769674395,"R"
 
 # File marks:
-'0  1  16  ~/report.txt
-|4,48,1,16,1786105303,"~/report.txt"
-'1  9  0  ~/shell_script.sh
-|4,49,9,0,1786105264,"~/shell_script.sh"
-'2  9  0  ~/shell_script.sh
-|4,50,9,0,1786105052,"~/shell_script.sh"
-'3  1  42  ~/shell_script.sh
-|4,51,1,42,1786104753,"~/shell_script.sh"
-'4  4  42  ~/shell_script.sh
-|4,52,4,42,1786104753,"~/shell_script.sh"
-'5  1  42  ~/shell_script.sh
-|4,53,1,42,1786104753,"~/shell_script.sh"
-'6  4  42  ~/shell_script.sh
-|4,54,4,42,1786104753,"~/shell_script.sh"
-'7  1  45  ~/third_job
-|4,55,1,45,1786103643,"~/third_job"
-'8  4  17  ~/test.sh
-|4,56,4,17,1785062869,"~/test.sh"
-'9  3  28  ~/test.sh
-|4,57,3,28,1785062617,"~/test.sh"
+'0  1  19  ~/shell_script.sh
+|4,48,1,19,1786106400,"~/shell_script.sh"
+'1  1  23  ~/report.txt
+|4,49,1,23,1786106304,"~/report.txt"
+'2  1  16  ~/report.txt
+|4,50,1,16,1786105303,"~/report.txt"
+'3  9  0  ~/shell_script.sh
+|4,51,9,0,1786105264,"~/shell_script.sh"
+'4  1  0  ~/shell_script.sh
+|4,52,1,0,1786105052,"~/shell_script.sh"
+'5  9  0  ~/shell_script.sh
+|4,53,9,0,1786105052,"~/shell_script.sh"
+'6  1  42  ~/shell_script.sh
+|4,54,1,42,1786104753,"~/shell_script.sh"
+'7  1  42  ~/shell_script.sh
+|4,55,1,42,1786104753,"~/shell_script.sh"
+'8  1  42  ~/shell_script.sh
+|4,56,1,42,1786104753,"~/shell_script.sh"
+'9  1  42  ~/shell_script.sh
+|4,57,1,42,1786104753,"~/shell_script.sh"
 
 # Jumplist (newest first):
+-'  1  19  ~/shell_script.sh
+|4,39,1,19,1786106400,"~/shell_script.sh"
+-'  1  23  ~/report.txt
+|4,39,1,23,1786106304,"~/report.txt"
+-'  1  23  ~/report.txt
+|4,39,1,23,1786106304,"~/report.txt"
+-'  1  16  ~/report.txt
+|4,39,1,16,1786105303,"~/report.txt"
 -'  1  16  ~/report.txt
 |4,39,1,16,1786105303,"~/report.txt"
 -'  9  0  ~/shell_script.sh
@@ -83,6 +100,14 @@ $
 -'  9  0  ~/shell_script.sh
 |4,39,9,0,1786105264,"~/shell_script.sh"
 -'  9  0  ~/shell_script.sh
+|4,39,9,0,1786105264,"~/shell_script.sh"
+-'  9  0  ~/shell_script.sh
+|4,39,9,0,1786105264,"~/shell_script.sh"
+-'  9  0  ~/shell_script.sh
+|4,39,9,0,1786105052,"~/shell_script.sh"
+-'  9  0  ~/shell_script.sh
+|4,39,9,0,1786105052,"~/shell_script.sh"
+-'  9  0  ~/shell_script.sh
 |4,39,9,0,1786105052,"~/shell_script.sh"
 -'  9  0  ~/shell_script.sh
 |4,39,9,0,1786105052,"~/shell_script.sh"
@@ -94,6 +119,14 @@ $
 |4,39,1,42,1786105040,"~/shell_script.sh"
 -'  1  42  ~/shell_script.sh
 |4,39,1,42,1786105040,"~/shell_script.sh"
+-'  1  42  ~/shell_script.sh
+|4,39,1,42,1786105040,"~/shell_script.sh"
+-'  1  42  ~/shell_script.sh
+|4,39,1,42,1786105040,"~/shell_script.sh"
+-'  1  42  ~/shell_script.sh
+|4,39,1,42,1786105040,"~/shell_script.sh"
+-'  1  42  ~/shell_script.sh
+|4,39,1,42,1786105040,"~/shell_script.sh"
 -'  4  42  ~/shell_script.sh
 |4,39,4,42,1786104753,"~/shell_script.sh"
 -'  4  42  ~/shell_script.sh
@@ -102,6 +135,18 @@ $
 |4,39,4,42,1786104753,"~/shell_script.sh"
 -'  4  42  ~/shell_script.sh
 |4,39,4,42,1786104753,"~/shell_script.sh"
+-'  4  42  ~/shell_script.sh
+|4,39,4,42,1786104753,"~/shell_script.sh"
+-'  4  42  ~/shell_script.sh
+|4,39,4,42,1786104753,"~/shell_script.sh"
+-'  4  42  ~/shell_script.sh
+|4,39,4,42,1786104753,"~/shell_script.sh"
+-'  4  42  ~/shell_script.sh
+|4,39,4,42,1786104753,"~/shell_script.sh"
+-'  1  0  ~/shell_script.sh
+|4,39,1,0,1786104744,"~/shell_script.sh"
+-'  1  0  ~/shell_script.sh
+|4,39,1,0,1786104744,"~/shell_script.sh"
 -'  1  0  ~/shell_script.sh
 |4,39,1,0,1786104744,"~/shell_script.sh"
 -'  1  0  ~/shell_script.sh
@@ -138,161 +183,126 @@ $
 |4,39,1,45,1786103643,"~/third_job"
 -'  1  45  ~/third_job
 |4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
+-'  1  45  ~/third_job
+|4,39,1,45,1786103643,"~/third_job"
 -'  4  17  ~/test.sh
 |4,39,4,17,1785062869,"~/test.sh"
 -'  4  17  ~/test.sh
 |4,39,4,17,1785062869,"~/test.sh"
 -'  4  17  ~/test.sh
 |4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  4  17  ~/test.sh
-|4,39,4,17,1785062869,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062830,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062617,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062617,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062617,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062617,"~/test.sh"
--'  3  28  ~/test.sh
-|4,39,3,28,1785062617,"~/test.sh"
 
 # History of marks within files (newest to oldest):
 
-> ~/report.txt
-	*	1786105302	0
-	"	1	16
-	^	1	17
-	.	1	16
-	+	1	16
-
 > ~/shell_script.sh
-	*	1786105263	0
-	"	9	0
-	^	9	0
-	.	8	2
+	*	1786106398	0
+	"	1	19
+	^	1	20
+	.	1	19
 	+	1	11
-	+	8	2
+	+	1	2
+	+	1	19
+
+> ~/report.txt
+	*	1786106302	0
+	"	1	23
+	^	1	24
+	.	1	23
+	+	1	23
 
 > ~/third_job
 	*	1786103641	0
